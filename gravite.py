@@ -18,7 +18,7 @@ def update():
     if pyxel.btn(pyxel.KEY_LEFT) or pyxel.btn(pyxel.GAMEPAD1_BUTTON_DPAD_LEFT):
         player_x = max(player_x - 2, 0)
     if pyxel.btn(pyxel.KEY_RIGHT) or pyxel.btn(pyxel.GAMEPAD1_BUTTON_DPAD_RIGHT):
-        player_x = min(player_x + 2, pyxel.width - 8)
+        player_x = min(player_x + 2, pyxel.width - 5)
     
     if player_y >= pyxel.height - 17 :
         player_y = pyxel.height - 17
